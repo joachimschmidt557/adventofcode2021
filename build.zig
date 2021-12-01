@@ -1,6 +1,8 @@
 const Builder = @import("std").build.Builder;
 
-const days = [_][]const u8{};
+const days = [_][]const u8{
+    "01",
+};
 
 pub fn build(b: *Builder) void {
     // Standard target options allows the person running `zig build` to choose
